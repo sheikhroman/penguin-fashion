@@ -12,9 +12,23 @@
 
 <body>
     <!-- Header start -->
-    <header class="bg-yellow-50">
-        <nav>
-            <img class="w-30%" src="icons/Group 33072.png" alt="">
+    <header class="bg-yellow-50 py-3 px-5">
+        <nav class="lg:flex justify-center">
+            <div>
+                <img class="w-2/4" src="icons/Group 33072.png" alt="">
+            </div>
+            <div class="inline my-3 justify-evenly">
+                <ul>
+                    <li>
+                        <i>
+                            <a class="text-base px-2 font-semibold" href="#">Home</a>
+                            <a class="text-base px-2 font-semibold" href="#product">Product</a>
+                            <a class="text-base px-2 font-semibold" href="#">About us</a>
+                            <a class="text-base px-2 font-semibold" href="#">Contact us</a>
+                        </i>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <section class="container md:flex items-center	justify-around	py-12 px-4">
             <div class="space-y-4">
@@ -40,7 +54,7 @@
     <!-- Main -->
     <main>
         <!-- Woman Jacket -->
-        <section class="container px-8 mx-auto my-12">
+        <section class="container px-8 mx-auto my-12" id="product">
             <h2 class="text-3xl uppercase text-gray-700 font-bold mb-4">Woman Jacket</h2>
             <!-- Jacket -->
             <div class="grid lg:grid-cols-3 gap-7">
